@@ -1,249 +1,163 @@
-✅ Generated docs/index.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Weekly Quiz — 2025-08-17</title>
+  <style>
+    body {
+      margin: 0; padding: 2rem;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      display: flex; justify-content: center;
+    }
+    .quiz-container {
+      max-width: 700px; width: 100%;
+      background: #fff; padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center; color: #2a2a72;
+      margin-bottom: 1.5rem;
+    }
+    .question { margin-bottom: 1.5rem; }
+    .question p { margin: 0 0 .5rem 0; font-weight: 600; }
+    .answers label {
+      display: block; padding: .5rem .75rem;
+      border-radius: 4px; cursor: pointer;
+      transition: background .2s;
+    }
+    .answers label:hover { background: #e8e8e8; }
+    input[type="radio"] { margin-right: .5rem; }
+    #submit-btn {
+      display: block; margin: 1.5rem auto;
+      padding: .75rem 1.5rem;
+      background: #2a2a72; color: #fff;
+      border: none; border-radius: 4px;
+      font-size: 1rem; cursor: pointer;
+      transition: background .2s;
+    }
+    #submit-btn:hover { background: #1f1f58; }
+    #result {
+      text-align: center; font-size: 1.2rem; font-weight: 600;
+      margin-top: 1rem; padding: 1rem; border-radius: 4px;
+    }
+    #result.pass {
+      background: #e0f7e9; color: #2a7f3e;
+    }
+    #result.fail {
+      background: #fde2e1; color: #a33;
+    }
+  </style>
 </head>
 <body>
-  <h1>Weekly Quiz for 2025-08-17</h1>
-  <form>
-  
-    <div>
-      <p>1. What’s the definition of “reinforcement”?</p>
-      
-      <label>
-        <input type="radio" name="q1" value="a unit of digital storage equal to one billion bytes" required>
-        a unit of digital storage equal to one billion bytes
-      </label>
-    
-      <label>
-        <input type="radio" name="q1" value="a sudden loss of memory" required>
-        a sudden loss of memory
-      </label>
-    
-      <label>
-        <input type="radio" name="q1" value="the act of strengthening or supporting something" required>
-        the act of strengthening or supporting something
-      </label>
-    
-      <label>
-        <input type="radio" name="q1" value="a tax on imported goods" required>
-        a tax on imported goods
-      </label>
-    
-    </div>
-    
+  <div class="quiz-container">
+    <h1>Weekly Vocabulary Quiz — 2025-08-17</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. What’s the definition of “reinforcement”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q1" value="true" required> the act of strengthening or supporting something</label>
+          <label><input type="radio" name="q1" value="false" required> a tax on imported goods</label>
+          <label><input type="radio" name="q1" value="false" required> a unit of digital storage equal to one billion bytes</label>
+          <label><input type="radio" name="q1" value="false" required> a sudden loss of memory</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>2. What’s the definition of “nuanced”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q2" value="false" required> immune to criticism</label>
+          <label><input type="radio" name="q2" value="true" required> characterized by subtle distinctions or variations</label>
+          <label><input type="radio" name="q2" value="false" required> relating to clouds and weather</label>
+          <label><input type="radio" name="q2" value="false" required> extremely loud in sound</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>3. What’s the definition of “nuanced”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q3" value="true" required> having delicate shades of meaning or expression</label>
+          <label><input type="radio" name="q3" value="false" required> capable of producing its own light</label>
+          <label><input type="radio" name="q3" value="false" required> made of tiny particles suspended in liquid</label>
+          <label><input type="radio" name="q3" value="false" required> covered with small grooves</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>4. What’s the definition of “cognition”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q4" value="false" required> a disease caused by bacteria in water</label>
+          <label><input type="radio" name="q4" value="true" required> the mental process of acquiring knowledge and understanding</label>
+          <label><input type="radio" name="q4" value="false" required> the measurement of land area</label>
+          <label><input type="radio" name="q4" value="false" required> the collection of laws in a state</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>5. What’s the definition of “resort”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q5" value="false" required> a formal speech at a funeral</label>
+          <label><input type="radio" name="q5" value="false" required> a handheld device for measuring wind speed</label>
+          <label><input type="radio" name="q5" value="false" required> an agreement to stop fighting temporarily</label>
+          <label><input type="radio" name="q5" value="true" required> a place frequently visited for vacation or recreation</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>6. What’s the definition of “pettiness”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q6" value="false" required> a ceremonial headdress worn by clergy</label>
+          <label><input type="radio" name="q6" value="false" required> the state of being very large and powerful</label>
+          <label><input type="radio" name="q6" value="true" required> excessive concern with trivial matters</label>
+          <label><input type="radio" name="q6" value="false" required> an early stage of plant growth</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>7. What’s the definition of “exascale”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q7" value="true" required> relating to computing systems able to perform about one quintillion operations per second</label>
+          <label><input type="radio" name="q7" value="false" required> a photographic technique using extra long exposures</label>
+          <label><input type="radio" name="q7" value="false" required> a unit of network bandwidth equal to one billion bits per second</label>
+          <label><input type="radio" name="q7" value="false" required> a measure of earthquake intensity</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>8. What’s the definition of “excerpt”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q8" value="false" required> the outer layer of human skin</label>
+          <label><input type="radio" name="q8" value="false" required> a payment made regularly to a landlord</label>
+          <label><input type="radio" name="q8" value="false" required> a tool used to cut wood in curves</label>
+          <label><input type="radio" name="q8" value="true" required> a short passage taken from a text or other media</label>
+        </div>
+      </div>
+      <div class="question">
+        <p>9. What’s the definition of “permissive”?</p>
+        <div class="answers">
+          <label><input type="radio" name="q9" value="false" required> capable of burning easily</label>
+          <label><input type="radio" name="q9" value="false" required> requiring strict obedience</label>
+          <label><input type="radio" name="q9" value="true" required> allowing great freedom of behavior</label>
+          <label><input type="radio" name="q9" value="false" required> relating to the study of earthquakes</label>
+        </div>
+      </div>
+      <button type="submit" id="submit-btn">Submit Quiz</button>
+    </form>
+    <div id="result"></div>
+  </div>
 
-    <div>
-      <p>2. What’s the definition of “nuanced”?</p>
-      
-      <label>
-        <input type="radio" name="q2" value="extremely loud in sound" required>
-        extremely loud in sound
-      </label>
-    
-      <label>
-        <input type="radio" name="q2" value="characterized by subtle distinctions or variations" required>
-        characterized by subtle distinctions or variations
-      </label>
-    
-      <label>
-        <input type="radio" name="q2" value="immune to criticism" required>
-        immune to criticism
-      </label>
-    
-      <label>
-        <input type="radio" name="q2" value="relating to clouds and weather" required>
-        relating to clouds and weather
-      </label>
-    
-    </div>
-    
+  <script>
+    const form = document.getElementById('quiz-form');
+    const resultDiv = document.getElementById('result');
+    const total = 9;
 
-    <div>
-      <p>3. What’s the definition of “nuanced”?</p>
-      
-      <label>
-        <input type="radio" name="q3" value="made of tiny particles suspended in liquid" required>
-        made of tiny particles suspended in liquid
-      </label>
-    
-      <label>
-        <input type="radio" name="q3" value="having delicate shades of meaning or expression" required>
-        having delicate shades of meaning or expression
-      </label>
-    
-      <label>
-        <input type="radio" name="q3" value="covered with small grooves" required>
-        covered with small grooves
-      </label>
-    
-      <label>
-        <input type="radio" name="q3" value="capable of producing its own light" required>
-        capable of producing its own light
-      </label>
-    
-    </div>
-    
-
-    <div>
-      <p>4. What’s the definition of “cognition”?</p>
-      
-      <label>
-        <input type="radio" name="q4" value="the mental process of acquiring knowledge and understanding" required>
-        the mental process of acquiring knowledge and understanding
-      </label>
-    
-      <label>
-        <input type="radio" name="q4" value="the measurement of land area" required>
-        the measurement of land area
-      </label>
-    
-      <label>
-        <input type="radio" name="q4" value="the collection of laws in a state" required>
-        the collection of laws in a state
-      </label>
-    
-      <label>
-        <input type="radio" name="q4" value="a disease caused by bacteria in water" required>
-        a disease caused by bacteria in water
-      </label>
-    
-    </div>
-    
-
-    <div>
-      <p>5. What’s the definition of “resort”?</p>
-      
-      <label>
-        <input type="radio" name="q5" value="a handheld device for measuring wind speed" required>
-        a handheld device for measuring wind speed
-      </label>
-    
-      <label>
-        <input type="radio" name="q5" value="a formal speech at a funeral" required>
-        a formal speech at a funeral
-      </label>
-    
-      <label>
-        <input type="radio" name="q5" value="a place frequently visited for vacation or recreation" required>
-        a place frequently visited for vacation or recreation
-      </label>
-    
-      <label>
-        <input type="radio" name="q5" value="an agreement to stop fighting temporarily" required>
-        an agreement to stop fighting temporarily
-      </label>
-    
-    </div>
-    
-
-    <div>
-      <p>6. What’s the definition of “pettiness”?</p>
-      
-      <label>
-        <input type="radio" name="q6" value="a ceremonial headdress worn by clergy" required>
-        a ceremonial headdress worn by clergy
-      </label>
-    
-      <label>
-        <input type="radio" name="q6" value="excessive concern with trivial matters" required>
-        excessive concern with trivial matters
-      </label>
-    
-      <label>
-        <input type="radio" name="q6" value="the state of being very large and powerful" required>
-        the state of being very large and powerful
-      </label>
-    
-      <label>
-        <input type="radio" name="q6" value="an early stage of plant growth" required>
-        an early stage of plant growth
-      </label>
-    
-    </div>
-    
-
-    <div>
-      <p>7. What’s the definition of “exascale”?</p>
-      
-      <label>
-        <input type="radio" name="q7" value="a unit of network bandwidth equal to one billion bits per second" required>
-        a unit of network bandwidth equal to one billion bits per second
-      </label>
-    
-      <label>
-        <input type="radio" name="q7" value="a measure of earthquake intensity" required>
-        a measure of earthquake intensity
-      </label>
-    
-      <label>
-        <input type="radio" name="q7" value="a photographic technique using extra long exposures" required>
-        a photographic technique using extra long exposures
-      </label>
-    
-      <label>
-        <input type="radio" name="q7" value="relating to computing systems able to perform about one quintillion operations per second" required>
-        relating to computing systems able to perform about one quintillion operations per second
-      </label>
-    
-    </div>
-    
-
-    <div>
-      <p>8. What’s the definition of “excerpt”?</p>
-      
-      <label>
-        <input type="radio" name="q8" value="the outer layer of human skin" required>
-        the outer layer of human skin
-      </label>
-    
-      <label>
-        <input type="radio" name="q8" value="a payment made regularly to a landlord" required>
-        a payment made regularly to a landlord
-      </label>
-    
-      <label>
-        <input type="radio" name="q8" value="a tool used to cut wood in curves" required>
-        a tool used to cut wood in curves
-      </label>
-    
-      <label>
-        <input type="radio" name="q8" value="a short passage taken from a text or other media" required>
-        a short passage taken from a text or other media
-      </label>
-    
-    </div>
-    
-
-    <div>
-      <p>9. What’s the definition of “permissive”?</p>
-      
-      <label>
-        <input type="radio" name="q9" value="relating to the study of earthquakes" required>
-        relating to the study of earthquakes
-      </label>
-    
-      <label>
-        <input type="radio" name="q9" value="requiring strict obedience" required>
-        requiring strict obedience
-      </label>
-    
-      <label>
-        <input type="radio" name="q9" value="capable of burning easily" required>
-        capable of burning easily
-      </label>
-    
-      <label>
-        <input type="radio" name="q9" value="allowing great freedom of behavior" required>
-        allowing great freedom of behavior
-      </label>
-    
-    </div>
-    
-    <button type="submit">Submit Answers</button>
-  </form>
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      let score = 0;
+      for (let i = 1; i <= total; i++) {
+        if (form[`q${i}`].value === 'true') score++;
+      }
+      const pct = Math.round(score / total * 100);
+      resultDiv.textContent = `You scored ${score} out of ${total} (${pct}%)`;
+      resultDiv.className = pct >= 70 ? 'pass' : 'fail';
+      resultDiv.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
